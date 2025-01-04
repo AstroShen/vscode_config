@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+m",
+        "command": "leetcode.testSolution"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "leetcode.submitSolution"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorLineEnd",
+        "when": "textInputFocus && vim.mode == 'Insert'"
+    }
+]
