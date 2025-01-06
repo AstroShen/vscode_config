@@ -22,6 +22,27 @@
         "command": "workbench.action.closeActiveEditor",
         "when": "editorTextFocus && vim.mode != 'Insert'"
     },
+    // window navigation 
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.focusBelowGroup",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.focusAboveGroup",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusRightGroup",
+        "when": "editorFocus"
+    },
     // use ctrl j k to navigate
     {
         "key": "ctrl+j",
